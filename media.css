@@ -101,6 +101,11 @@
         color: #fff;
     }
     
+    .paragraf{
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 1;
+    }
     
 
     .exit h4{
@@ -250,6 +255,13 @@
     font-size: 25px;
 }
 
+.menu_content p {
+    
+
+    font-size: 14px;
+
+}
+
 .cantent_box{
     position: relative;
     top: 350px;
@@ -290,6 +302,11 @@
         position: absolute;
         left: 100px;
     }
+
+    .contem_flag i{
+        margin-left: 110px;
+    }
+    
     
     .olti{
         margin-left: 5px;
@@ -297,16 +314,26 @@
 }
 
 @media screen and (max-width: 490px){
+    .contem_flag i{
+        margin-left: 90px;
+    }
     .exit{
         margin-left: 300px ;
     }
 }
 @media screen and (max-width: 420px){
+
+    .contem_flag i{
+        margin-left: 70px;
+    }
     .exit{
         margin-left: 240px ;
     }
 }
 @media screen and (max-width: 373px){
+    .contem_flag i{
+        margin-left: 60px;
+    }
     .exit{
         margin-left: 220px ;
     }
